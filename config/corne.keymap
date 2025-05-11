@@ -9,12 +9,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <300>;
+    tapping-term-ms = <250>;
     flavor = "tap-preferred";
 };
 
 &lt {
-    tapping-term-ms = <300>;
+    tapping-term-ms = <250>;
     flavor = "tap-preferred";
 };
 
@@ -52,10 +52,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&lt_400 3 GRAVE     &kp Q  &kp W  &kp F                       &kp P             &kp D                 &kp J                     &kp L            &kp U                          &kp Y    &kp MINUS  &kp BACKSLASH
-&kp TAB             &kp A  &kp R  &kp S                       &kp T             &kp G                 &kp H                     &kp N            &kp E                          &kp I    &kp O      &kp ENTER
-&mt LEFT_SHIFT F12  &kp Z  &kp X  &kp C                       &kp V             &kp B                 &kp K                     &kp M            &kp COMMA                      &kp DOT  &kp EQUAL  &lt 1 SLASH
-                                  &mt CAPSLOCK DOUBLE_QUOTES  &lt 1 UNDERSCORE  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 2 SEMICOLON  &mt LEFT_CONTROL SINGLE_QUOTE
+&lt_400 3 F12             &kp Q  &kp W  &kp F                       &kp P              &kp D          &kp J            &kp L               &kp U               &kp Y    &kp MINUS         &kp BACKSLASH
+&kp TAB                   &kp A  &kp R  &kp S                       &kp T              &kp G          &kp H            &kp N               &kp E               &kp I    &kp O             &kp ENTER
+&mt LEFT_SHIFT BACKSPACE  &kp Z  &kp X  &kp C                       &kp V              &kp B          &kp K            &kp M               &kp COMMA           &kp DOT  &kp SINGLE_QUOTE  &kp SLASH
+                                        &mt LEFT_CONTROL SEMICOLON  &mt LEFT_GUI HOME  &lt 1 SPACE    &lt 1 BACKSPACE  &mt LEFT_SHIFT END  &mt LEFT_ALT EQUAL
             >;
         };
 
@@ -67,10 +67,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans        &trans         &trans   &trans             &trans        &trans                &trans                    &kp LEFT_BRACKET  &kp UP_ARROW      &kp RIGHT_BRACKET  &trans                 &trans
-&kp HOME      &kp ESCAPE     &kp TAB  &kp ENTER          &kp LEFT_GUI  &trans                &kp LEFT_PARENTHESIS      &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp RIGHT_PARENTHESIS  &kp END
-&kp LEFT_ALT  &kp BACKSPACE  &trans   &trans             &trans        &trans                &kp PAGE_UP               &kp LEFT_BRACE    &kp SPACE         &kp RIGHT_BRACE    &kp PAGE_DOWN          &trans
-                                      &kp DOUBLE_QUOTES  &trans        &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp UNDERSCORE    &kp SINGLE_QUOTE
+&kp GRAVE       &kp ESCAPE  &kp W  &kp F             &kp CAPSLOCK       &kp D        &trans                &kp LS(ENTER)       &kp UP_ARROW    &kp LC(ENTER)      &trans                 &trans
+&kp TAB         &kp A       &kp R  &kp S             &kp LEFT_GUI       &kp T        &kp LEFT_PARENTHESIS  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp RIGHT_PARENTHESIS  &kp ENTER
+&kp LEFT_SHIFT  &kp Z       &kp X  &kp C             &mo 2              &kp V        &kp K                 &kp LEFT_BRACKET    &kp SPACE       &kp RIGHT_BRACKET  &trans                 &trans
+                                   &kp LEFT_CONTROL  &mt LEFT_GUI HOME  &kp SPACE    &kp BACKSPACE         &mt LEFT_SHIFT END  &kp LEFT_ALT
             >;
         };
 
@@ -82,10 +82,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans   &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR     &kp PERCENT           &kp CARET                 &kp AMPERSAND  &kp ASTERISK  &kp F8      &kp F9   &trans
-&trans   &kp N1           &kp N2       &kp N3     &kp N4         &kp N5                &kp N6                    &kp N7         &kp N8        &kp N9      &kp N0   &trans
-&kp F12  &kp F1           &kp F2       &kp F3     &kp F4         &kp F5                &kp F6                    &kp F7         &kp COMMA     &kp PERIOD  &kp F10  &kp F11
-                                       &trans     &kp BACKSPACE  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &trans         &trans
+&kp F1          &kp F2           &kp F3       &kp F4            &kp F5        &kp F6     &trans                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans   &trans
+&kp F7          &kp F8           &kp F9       &kp F10           &kp F11       &kp F12    &trans                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans   &trans
+&kp LEFT_SHIFT  &kp LS(LC(TAB))  &kp LC(TAB)  &trans            &trans        &trans     &kp COMMA                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT  &trans
+                                              &kp LEFT_CONTROL  &kp LEFT_GUI  &trans     &mt LEFT_SHIFT BACKSPACE  &kp NUMBER_0  &kp LEFT_ALT
             >;
         };
 
