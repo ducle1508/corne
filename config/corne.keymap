@@ -52,7 +52,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&lt_400 4 F12             &kp Q  &kp W  &kp F  &kp P       &kp D          &kp J            &kp L      &kp U      &kp Y    &mt LEFT_CONTROL MINUS     &mt LEFT_ALT EQUAL
+&lt_400 4 F12             &kp Q  &kp W  &kp F  &kp P       &kp D          &kp J            &kp L      &kp U      &kp Y    &mt LEFT_CONTROL EQUAL     &mt LEFT_ALT MINUS
 &kp TAB                   &kp A  &kp R  &kp S  &kp T       &kp G          &kp H            &kp N      &kp E      &kp I    &kp O                      &kp ENTER
 &mt LEFT_SHIFT BACKSPACE  &kp Z  &kp X  &kp C  &kp V       &kp B          &kp K            &kp M      &kp COMMA  &kp DOT  &mt LEFT_GUI SINGLE_QUOTE  &mt LEFT_SHIFT SLASH
                                         &none  &lt 2 HOME  &lt 1 SPACE    &lt 1 BACKSPACE  &lt 3 END  &none
