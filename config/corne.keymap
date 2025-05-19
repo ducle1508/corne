@@ -67,10 +67,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE                 &kp ESCAPE  &kp W      &kp F      &kp CAPSLOCK  &kp LG(P)    &kp L          &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LEFT_ALT   &kp LEFT_CONTROL
-&kp TAB                   &kp A       &kp R      &kp S      &kp LEFT_GUI  &kp LG(T)    &kp LS(ENTER)  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(ENTER)  &kp ENTER
-&mt LEFT_SHIFT BACKSPACE  &kp LG(Z)   &kp LG(X)  &kp LG(C)  &kp LG(V)     &kp LG(B)    &kp K          &kp PAGE_UP      &kp SPACE       &kp PAGE_DOWN    &kp LEFT_GUI   &mt_400 LEFT_SHIFT SLASH
-                                                 &none      &kp HOME      &mo 2        &mo 2          &kp END          &none
+&kp GRAVE                 &kp ESCAPE  &kp W      &kp F      &kp CAPSLOCK  &kp LG(P)      &kp L            &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LEFT_ALT   &kp LEFT_CONTROL
+&kp TAB                   &kp A       &kp R      &kp S      &kp LEFT_GUI  &kp LG(T)      &kp LS(ENTER)    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(ENTER)  &kp ENTER
+&mt LEFT_SHIFT BACKSPACE  &kp LG(Z)   &kp LG(X)  &kp LG(C)  &kp LG(V)     &kp LG(B)      &kp K            &kp PAGE_UP      &kp SPACE       &kp PAGE_DOWN    &kp LEFT_GUI   &mt_400 LEFT_SHIFT SLASH
+                                                 &none      &kp HOME      &lt 2 SPACE    &lt 2 BACKSPACE  &kp END          &none
             >;
         };
 
