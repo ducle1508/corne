@@ -85,19 +85,19 @@
 
         num_char_med_test {
             bindings = <
-&none                     &kp EXCLAMATION    &kp AT_SIGN  &kp POUND          &kp DOLLAR       &kp PERCENT          &kp CARET      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt_400 LEFT_ALT NUMBER_0  &kp LEFT_CONTROL
-&kp ENTER                 &kp DOUBLE_QUOTES  &none        &kp LEFT_BRACKET   &kp UNDERSCORE   &kp RIGHT_BRACKET    &none          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON                  &none
-&mt LEFT_SHIFT BACKSPACE  &kp C_PLAY_PAUSE   &none        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none                &kp COMMA      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt_400 LEFT_GUI PERIOD    &mt_400 LEFT_SHIFT SLASH
-                                                          &mo 5              &mo 4            &kp SPACE            &kp BACKSPACE  &mo 4         &kp NUMBER_0
+&none                     &kp EXCLAMATION   &kp AT_SIGN     &kp POUND          &kp DOLLAR        &kp PERCENT          &kp CARET      &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &mt_400 LEFT_ALT NUMBER_0       &kp LEFT_CONTROL
+&none                     &kp ENTER         &none           &kp UNDERSCORE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp PERIOD     &kp NUMBER_4    &kp NUMBER_5  &kp NUMBER_6  &kp COLON                       &none
+&mt LEFT_SHIFT BACKSPACE  &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &none                &kp COMMA      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &mt_400 LEFT_GUI DOUBLE_QUOTES  &mt_400 LEFT_SHIFT SLASH
+                                                            &mo 5              &mo 4             &kp SPACE            &kp BACKSPACE  &lt 4 NUMBER_0  &none
             >;
         };
 
         num_char_med_test_upper {
             bindings = <
-&none                     &none  &none  &none           &none      &none              &none  &kp AMPERSAND    &kp ASTERISK           &kp LEFT_PARENTHESIS  &mt_400 LEFT_ALT RIGHT_PARENTHESIS  &kp LEFT_CONTROL
-&none                     &none  &none  &kp LEFT_BRACE  &kp MINUS  &kp RIGHT_BRACE    &none  &kp DOLLAR       &kp PERCENT            &kp CARET             &kp SEMICOLON                       &none
-&mt LEFT_SHIFT BACKSPACE  &none  &none  &none           &none      &none              &none  &kp EXCLAMATION  &kp AT_SIGN            &kp POUND             &kp LEFT_GUI                        &kp LEFT_SHIFT
-                                        &none           &none      &none              &none  &none            &kp RIGHT_PARENTHESIS
+&none                     &none  &none  &none      &none           &none              &none  &kp AMPERSAND    &kp ASTERISK           &kp LEFT_PARENTHESIS  &mt_400 LEFT_ALT RIGHT_PARENTHESIS  &kp LEFT_CONTROL
+&none                     &none  &none  &kp MINUS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &none  &kp DOLLAR       &kp PERCENT            &kp CARET             &kp SEMICOLON                       &none
+&mt LEFT_SHIFT BACKSPACE  &none  &none  &none      &none           &none              &none  &kp EXCLAMATION  &kp AT_SIGN            &kp POUND             &kp LEFT_GUI                        &kp LEFT_SHIFT
+                                        &none      &none           &none              &none  &none            &kp RIGHT_PARENTHESIS
             >;
         };
 
