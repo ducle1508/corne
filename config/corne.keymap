@@ -20,13 +20,13 @@
 
 / {
     behaviors {
-        lt_175: lt_175 {
+        lt_150: lt_150 {
             compatible = "zmk,behavior-hold-tap";
-            label = "LT_175";
+            label = "LT_150";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <150>;
             flavor = "tap-preferred";
         };
 
@@ -55,7 +55,7 @@
 &mt_400 LEFT_CONTROL F12  &mt_400 LEFT_ALT Q  &kp W  &kp F  &kp P           &kp D          &kp J            &kp L          &kp U      &kp Y    &mt_400 LEFT_ALT EQUAL         &mt_400 LEFT_CONTROL BACKSLASH
 &kp TAB                   &kp A               &kp R  &kp S  &kp T           &kp G          &kp H            &kp N          &kp E      &kp I    &kp O                          &kp ENTER
 &mt LEFT_SHIFT BACKSPACE  &mt_400 LEFT_GUI Z  &kp X  &kp C  &kp V           &kp B          &kp K            &kp M          &kp COMMA  &kp DOT  &mt_400 LEFT_GUI SINGLE_QUOTE  &mt LEFT_SHIFT SLASH
-                                                     &none  &lt_175 3 HOME  &lt 1 SPACE    &lt 1 BACKSPACE  &lt_175 3 END  &none
+                                                     &none  &lt_150 3 HOME  &lt 1 SPACE    &lt 1 BACKSPACE  &lt_150 3 END  &none
             >;
         };
 
